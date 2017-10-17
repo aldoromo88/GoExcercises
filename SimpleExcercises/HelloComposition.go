@@ -39,5 +39,5 @@ func (p *Person) SayHi() {
 }
 
 func (s *Saiyan) SayHi() {
-	fmt.Println("Hi my name is", s.Name, ", I'm", s.Age, "years old and my power is over", s.Power)
+	fmt.Println("Hi my name is", s.Name + ", I'm", s.Age, "years old and my power is over", s.Power)
 }
